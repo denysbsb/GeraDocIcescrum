@@ -1,0 +1,9 @@
+{
+  "name": "moduloicescrum",
+  "version": "1.0.0",
+  "dependencies": {
+    "docxtemplater": "^2.0.0",
+    "docxtemplater-image-module": "^1.0.0",
+    "easy-zip": "0.0.4"
+  }
+}

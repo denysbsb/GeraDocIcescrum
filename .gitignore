@@ -1,0 +1,5 @@
+node_modules/
+
+# arquivos SO
+.DS_Store
+!.gitkeep

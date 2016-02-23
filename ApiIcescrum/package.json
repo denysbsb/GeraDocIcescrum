@@ -1,0 +1,14 @@
+{
+  "name": "apiicescrum",
+  "version": "1.0.0",
+  "description": "Api para geração de artefatos do Scrum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}

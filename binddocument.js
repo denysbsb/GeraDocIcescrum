@@ -20,12 +20,16 @@ var imageModule = new ImageModule(opts);
 
 var bind ={
 	process:function(documento){
-	
+
+		//console.log(documento[0]);
+		//documento = JSON.parse(documento[0]);
+		//
+
 		for (var i = 0; i < config.FILES.length ; i++) {
-			bind.bind(config.FILES[i], documento[i]);
+			bind.bind(config.FILES[i], documento);
 		}
 
-		bind.zip();
+		//bind.zip();
 		
 	},
 

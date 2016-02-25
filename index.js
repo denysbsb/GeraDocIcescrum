@@ -4,10 +4,10 @@ var api = require('./icescrumapi.js'),
 /*
 	process.argv[2] = projectName
 */
-
 if(projectName === undefined){
 	console.log('Nome do projeto é requerido');
 	return;
 }
 
 api.request(projectName,bind.process);
+
